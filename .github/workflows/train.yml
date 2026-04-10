@@ -20,3 +20,9 @@ jobs:
       
       - name: Run training script
         run: python train.py
+        
+      - name: Upload a single file
+        uses: actions/upload-artifact@v4
+        with:
+          name: ml-artifacts-${{ github.run_id }}
+          path: artifacts
