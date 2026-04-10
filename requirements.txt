@@ -1,4 +1,10 @@
+# Data Scientist
 pandas
 scikit-learn
-fastapi
+
+# ML Engineers
 uvicorn
+fastapi
+joblib
+
+# MLOps
