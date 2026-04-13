@@ -1,0 +1,4 @@
+[core]
+    remote = house-prediction
+['remote "house-prediction"']
+    url = s3://california-house-prediction-sgaddam
